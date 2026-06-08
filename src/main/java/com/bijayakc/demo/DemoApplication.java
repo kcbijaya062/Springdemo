@@ -10,5 +10,7 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
 
         System.out.println("Hello this is my first class and I am learning java spring");
+        HelloController controller = new HelloController();
+    
     }
 }
